@@ -1,38 +1,43 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-body{
-    font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
-.header-container{
-    display:flex;
-    justify-content: center;
+.header-container {
+  display: flex;
+  justify-content: center;
 }
-#list{
-    display:flex;
-    justify-content: center;
-    align-content: space-between;
+#list {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
 }
-.first, .second, .third{
-    width: calc(100%/3 - 20px);
-    min-height: 200px;
-    border:solid 1px rgb(255, 113, 31);
-    margin:20px;
-    padding:10px;
+.first,
+.second,
+.third {
+  width: calc(100% / 3 - 20px);
+  min-height: 200px;
+  border: solid 1px rgb(255, 113, 31);
+  margin: 20px;
+  padding: 10px;
 }
-button{
-    display: block;
-    margin:1px 0;
-    border-radius: 2px;
-    width:100%;
-    height:30px;
+button {
+  display: block;
+  margin: 1px 0;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
 }
-.useless-func{
-    background-color:lightgrey;
+.useless-func {
+  background-color: lightgrey;
 }
-#first-right, #second-left, #second-right, #third-left{
-    background-color:rgb(255, 113, 31);
+#first-right,
+#second-left,
+#second-right,
+#third-left {
+  background-color: rgb(255, 113, 31);
 }
-.selected{
-    background-color: rgb(255, 113, 31);
+.selected {
+  background-color: rgb(255, 113, 31);
 }
