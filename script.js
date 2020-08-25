@@ -43,6 +43,7 @@ const render = (arr) => {
 
     nameButton.addEventListener('click', (ev) => {
       const thisEl = ev.target;
+      //give toggled button "selected" color
       thisEl.classList.toggle('selected');
       if (!item.selected) {
         item.selected = true;
